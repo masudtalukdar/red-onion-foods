@@ -1,0 +1,52 @@
+/* nav link */
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* breakfast lunch dinner section   */
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 23rem);
+  justify-content: center;
+  margin-top: 80px;
+}
+
+/* single food */
+.food-item {
+  width: 270px;
+  margin-bottom: 50px;
+  height: 350px;
+  padding: 10px 20px;
+  padding-top: 34px;
+  /* background-color: rgb(252 244 224); */
+}
+.food-item h6,
+p {
+  text-align: center;
+}
+.food-item img {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+}
+.food-item:nth-child(2) {
+  box-shadow: 0 0.5rem 1rem rgba(250, 235, 189, 1);
+  border-radius: 20px;
+}
+.food-item:hover {
+  box-shadow: 0 0.5rem 1rem rgb(190, 189, 189);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+span {
+  color: rgba(220, 53, 69, 1);
+}
+.active-link {
+  color: #e62753 !important;
+  border-bottom: 3px solid #e62753 !important;
+}
+#item-names:hover {
+  color: rgba(249, 122, 105, 1);
+}
